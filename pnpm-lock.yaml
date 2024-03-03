@@ -14,6 +14,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  tauri-plugin-positioner-api:
+    specifier: ^0.2.7
+    version: 0.2.7
 
 devDependencies:
   '@tauri-apps/cli':
@@ -1143,6 +1146,12 @@ packages:
     dependencies:
       has-flag: 3.0.0
     dev: true
+
+  /tauri-plugin-positioner-api@0.2.7:
+    resolution: {integrity: sha512-jwqRHo59UU3aJbffEFkWVhBorjQg1WNeDa4W4eWVnaTqLals+/fqgHdNwTGzG1+LLdaJSS2FUy4XSwEDAWvERQ==}
+    dependencies:
+      '@tauri-apps/api': 1.5.3
+    dev: false
 
   /to-fast-properties@2.0.0:
     resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}

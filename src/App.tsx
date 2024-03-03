@@ -1,5 +1,12 @@
+import { move_window, Position } from 'tauri-plugin-positioner-api';
 import './App.scss';
+import { useEffect } from 'react';
+
 function App() {
+  useEffect(() => {
+    move_window(Position.BottomRight);
+  });
+
   return (
     <div>
       <div className='night'></div>
